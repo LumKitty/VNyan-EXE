@@ -1,6 +1,7 @@
-VNyan plugin to run external EXEs, PowerShell scripts, PowerShell commands and CMD commands.
+# External EXE launcher for VNyan
+Can be used to run PowerShell scripts, external EXEs, PowerShell commands and CMD.EXE commands
 
-### WARNING: Read this first
+## WARNING: Read this first
 Passing user input, such as the text parameter in Twitch redeems to external EXEs is dangerous! I will not be held responsible if a user sends e.g. '; RMDIR /S C:\Windows\System32  
 If you choose to do this, you are responsible for [sanitising your own inputs](https://xkcd.com/327/)
 For Powershell, ensure you use single quotes around your parameters ' never use double quotes " and replace all quotes in any user input with ''
