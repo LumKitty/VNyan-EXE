@@ -1,13 +1,15 @@
 # External EXE launcher for VNyan
 Can be used to run PowerShell scripts, external EXEs, PowerShell commands and CMD.EXE commands
 
-## WARNING: Read this first
-Passing user input, such as the text parameter in Twitch redeems to external EXEs is dangerous! I will not be held responsible if a user sends e.g. '; RMDIR /S C:\Windows\System32  
-If you choose to do this, you are responsible for [sanitising your own inputs](https://xkcd.com/327/)!  
+## WARNING: 
+Passing user input, such as Twitch chat, to external commands is dangerous! I will not be held responsible if a user sends e.g. ```'; RMDIR /S C:\Windows\System32``` and you didn't handle that correctly!  
+You are responsible for [sanitising your own inputs](https://xkcd.com/327/) if you decide to do this!  
 For Powershell, ensure you use single quotes around your parameters ' never use double quotes " and replace all quotes in any user input with '' For other EXEs, personal scripts etc. you should write your scripts accordingly.  
-If you have this plugin installed, and you import a node graph supplied by someone else. Be extra cautious about what that graph may contain!
-
+If you do not understand the above. Do not connect any of VNyan's "Callback" nodes to this plugin. Someone will ruin your day!  
 ![image](https://github.com/user-attachments/assets/3e18f990-32e3-419d-b0d4-17f88ab5f747)
+
+## WARNING: Third-party node graphs
+You should always be cautious when importing a node-graph made by someone else. Ensure you understand exactly what it is doing before you activate it. However if you have this plugin installed you need to be even more cautious. Someone could hide a malicious command in a node graph they supply, and now it has the ability to run anything on your system. If you don't know what you're doing, don't import third party node graphs, or better yet, don't install this plugin!  
 
 ## Functions
 
