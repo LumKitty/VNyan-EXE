@@ -4,7 +4,7 @@ Can be used to run PowerShell scripts, external EXEs, PowerShell commands and CM
 ## WARNING: 
 Passing user input, such as Twitch chat, to external commands is dangerous! I will not be held responsible if a user sends e.g. ```'; RMDIR /S C:\Windows\System32``` and you didn't handle that correctly!  
 You are responsible for [sanitising your own inputs](https://xkcd.com/327/) if you decide to do this!  
-For Powershell, ensure you use single quotes around your parameters ' never use double quotes " and replace all quotes in any user input with two single quotes '' For other EXEs, personal scripts etc. you should write your scripts accordingly.  
+For Powershell, ensure you use single quotes around your parameters ' never use double quotes " and replace all single quotes in any user input with two single quotes '' For other EXEs, personal scripts etc. you should write your scripts accordingly.  
 If you do not understand the above. Do not connect data or parameters from any of VNyan's "Callback" nodes to this plugin. Someone will ruin your day!  
 ![image](https://github.com/user-attachments/assets/3e18f990-32e3-419d-b0d4-17f88ab5f747)
 
