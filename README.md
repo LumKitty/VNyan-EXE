@@ -10,7 +10,7 @@ For Powershell, ensure you use single quotes around your parameters ' never use 
 
 ## Functions
 
-```_lum_exe_ps5``` - Run a script under PowerShell 5
+```_lum_exe_ps5``` - Run a script under PowerShell 5  
 text1 - Full path to script  
 text2 - Parameters to pass to script  
 text3 - Trigger to callback  
@@ -26,13 +26,13 @@ Same parameters as above
 ```_lum_exe_run``` - As above, but runs an executable (e.g. Notepad.exe) instead of a script
 Same parameters as above
 
-```_lum_exe_ps5cmd``` - Run a raw powershell command
+```_lum_exe_ps5cmd``` - Run a raw powershell command  
 text1 - Command to run  
 text3 - Trigger to callback  
 num1 - 0=hide window, 1=show window  
 
-```_lum_exe_pwshcmd``` - As above, but uses PowerShell Core
+```_lum_exe_pwshcmd``` - As above, but uses PowerShell Core  
 Same parameters as above
 
-```_lum_exe_cmd``` - As above, but uses CMD.EXE for running dos-style command
+```_lum_exe_cmd``` - As above, but uses CMD.EXE for running dos-style command  
 Same parameters as above
