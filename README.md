@@ -3,8 +3,8 @@ Can be used to run PowerShell scripts, external EXEs, PowerShell commands and CM
 
 ## WARNING: Read this first
 Passing user input, such as the text parameter in Twitch redeems to external EXEs is dangerous! I will not be held responsible if a user sends e.g. '; RMDIR /S C:\Windows\System32  
-If you choose to do this, you are responsible for [sanitising your own inputs](https://xkcd.com/327/)
-For Powershell, ensure you use single quotes around your parameters ' never use double quotes " and replace all quotes in any user input with '' For other EXEs, personal scripts etc. you should write your scripts accordingly.
+If you choose to do this, you are responsible for [sanitising your own inputs](https://xkcd.com/327/)!  
+For Powershell, ensure you use single quotes around your parameters ' never use double quotes " and replace all quotes in any user input with '' For other EXEs, personal scripts etc. you should write your scripts accordingly.  
 If you have this plugin installed, and you import a node graph supplied by someone else. Be extra cautious about what that graph may contain!
 
 ![image](https://github.com/user-attachments/assets/3e18f990-32e3-419d-b0d4-17f88ab5f747)
