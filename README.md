@@ -15,19 +15,19 @@ If you have this plugin installed, and you import a node graph supplied by someo
 text1 - Full path to script  
 text2 - Parameters to pass to script  
 text3 - Trigger to callback  
-num1 - 0=hide window, 1=show window  
+num1 - 0=hide window (default), 1=show window  
 
 Callback:  
 text1 - Full text output of script
 num1 - Exit code from script
 
-```_lum_exe_pwsh``` - As above, but uses PowerShell Core
-```_lum_exe_run``` - As above, but runs an executable (e.g. Notepad.exe) instead of a script
+```_lum_exe_pwsh``` - As above, but uses PowerShell Core  
+```_lum_exe_run``` - As above, but runs an executable (e.g. Notepad.exe) instead of a script  
+
 ```_lum_exe_ps5cmd``` - Run a raw powershell command  
 text1 - Command to run  
 text3 - Trigger to callback  
-num1 - 0=hide window, 1=show window  
+num1 - 0=hide window (default), 1=show window  
 
 ```_lum_exe_pwshcmd``` - As above, but uses PowerShell Core  
 ```_lum_exe_cmd``` - As above, but uses CMD.EXE for running a dos-style command  
-Same parameters as above
